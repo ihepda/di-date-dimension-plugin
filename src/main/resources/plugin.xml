@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+   id="DateDimensionPlugin"
+   iconfile="DateDimension.png"
+   description="Date Dimension Plugin"
+   tooltip="This is a kettle plugin used to popolate a date dimension table"
+   category="Data Warehouse"
+   classname="it.claudio.dangelo.kettle.plugin.date.DateDimMetaInterface">
+   <libraries>
+    <library name="${project.build.finalName}.jar"/>
+    </libraries>
+    
+   <localized_category>
+     <category locale="en_US">Data Warehouse</category>
+   </localized_category>
+   <localized_description>
+     <description locale="en_US">Date dimension</description>
+   </localized_description>
+   <localized_tooltip>
+     <tooltip locale="en_US">This is a kettle plugin used to popolate a date dimension table</tooltip>
+   </localized_tooltip>
+   
+</plugin>

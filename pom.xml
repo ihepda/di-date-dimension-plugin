@@ -4,6 +4,12 @@
 	<groupId>net.sourceforge.su4jd</groupId>
 	<artifactId>kettle-date-dimension-plugin</artifactId>
 	<version>4.3.0</version>
+	<licenses>
+		<license>
+			<name>The MIT License (MIT)</name>
+			<url>http://opensource.org/licenses/MIT</url>
+		</license>
+	</licenses>
 	<repositories>
 		<repository>
 			<id>pentaho</id>
